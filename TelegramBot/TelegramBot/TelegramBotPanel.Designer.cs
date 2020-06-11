@@ -315,7 +315,7 @@
             this.BotStartStop_Botton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.BotStartStop_Botton.Location = new System.Drawing.Point(8, 294);
             this.BotStartStop_Botton.Name = "BotStartStop_Botton";
-            this.BotStartStop_Botton.Size = new System.Drawing.Size(585, 35);
+            this.BotStartStop_Botton.Size = new System.Drawing.Size(590, 35);
             this.BotStartStop_Botton.TabIndex = 2;
             this.BotStartStop_Botton.Text = "اتصال";
             this.BotStartStop_Botton.UseVisualStyleBackColor = false;
@@ -328,7 +328,7 @@
             this.ClientSize = new System.Drawing.Size(614, 360);
             this.Controls.Add(this.BotTabControl);
             this.Name = "TelegramBotPanel";
-            this.Text = "TelegramBotPanel";
+            this.Text = "پنل ربات رادشید";
             this.BotTabControl.ResumeLayout(false);
             this.BotMainPanel_Tab.ResumeLayout(false);
             this.BotMainPanel_Tab.PerformLayout();

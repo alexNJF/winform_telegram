@@ -40,6 +40,26 @@ namespace TelegramBot
          * .../sendmassge?chatid=[int or chanel id ]&text=[your text]&parse_mode=[italic/bold]&disable_notification=[true/false]$reply_to_message_id=[int]&reply_markup=[json of your keyboard]
          */
 
+        
+
+        public void Decision(string ans, int chatid)
+        {
+            switch (ans)
+            {
+                case "/start":
+                    show_menu(chatid);
+                    break;
+                case "درباره ما":
+                    AboutUS(chatid);
+                    break;
+                case "تست دوم":
+                    break;
+                case "نمایش محصولات":
+                    show_product(chatid);
+                    break;
+            }
+        }
+        #region ResponseFuctions
         public void show_menu(int chatid)
         {
             /*
@@ -55,36 +75,19 @@ namespace TelegramBot
             var reply_keyboard_markup = new
             {
                 keyboard = new JArray(
-                    new JArray("نمایش محصولات ")
+                    new JArray("نمایش محصولات "),
+                     new JArray("درباره ما  ")
                     ),
-                 resize_keyboard = true
+                resize_keyboard = true
             };
 
             string _reply_keyboard_markup = JsonConvert.SerializeObject(reply_keyboard_markup);
 
             string message = "شرکت فنی تخصصی رادشید   ";
-            string Chatid = chatid.ToString() ;
+            string Chatid = chatid.ToString();
             string url = String.Format(this.BaseUrl + "sendMessage?text={0}&chat_id={1}&reply_markup={2}", message, Chatid, _reply_keyboard_markup);
             create_requst(url);
         }
-
-        public void Decision(string ans, int chatid)
-        {
-            switch (ans)
-            {
-                case "/start":
-                    show_menu(chatid);
-                    break;
-                case "تست اول":
-                    break;
-                case "تست دوم":
-                    break;
-                case "نمایش محصولات":
-                    show_product(chatid);
-                    break;
-            }
-        }
-
 
         public void show_product(int chat_id)
         {
@@ -103,7 +106,14 @@ namespace TelegramBot
             url = String.Format(this.BaseUrl + "sendMessage?text={0}&chat_id={1}", message, Chatid);
             create_requst(url);
         }
-
+        public void AboutUS(int chat_id)
+        {
+            string message = "تولید شده توسط شرکت راشید ";
+            string Chatid = chat_id.ToString();
+            string url = String.Format(this.BaseUrl + "sendMessage?text={0}&chat_id={1}", message, Chatid);
+            create_requst(url);
+        }
+        #endregion
 
         public T_result get_update()
         {

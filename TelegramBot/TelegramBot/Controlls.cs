@@ -26,13 +26,11 @@ namespace TelegramBot
                 return result;
             }
             catch (Exception ex)
-            {
-                Console.WriteLine("Can not Connect to server \n any key to Exit");
+            {  
                 Console.WriteLine(ex.Message);
-                Console.ReadKey();
-                Environment.Exit(0);
+                throw ex;
             }
-            return "";
+           
         }
 
 

@@ -28,37 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.BotTabControl = new System.Windows.Forms.TabControl();
             this.BotMainPanel_Tab = new System.Windows.Forms.TabPage();
+            this.BotStartStop_Botton = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.BotStatus_ListBox = new System.Windows.Forms.ListBox();
             this.BotSetting_Tab = new System.Windows.Forms.TabPage();
             this.Proxy_GroupBox = new System.Windows.Forms.GroupBox();
-            this.ProxyServer_GpBox = new System.Windows.Forms.GroupBox();
-            this.ProxyProtocol_GpBox = new System.Windows.Forms.GroupBox();
-            this.ProxyAuth_GpBox = new System.Windows.Forms.GroupBox();
-            this.ProxyServerAddress_TextBox = new System.Windows.Forms.TextBox();
-            this.ProxyServerProt_TextBox = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.ProxyProtocolHttps_RadioButton = new System.Windows.Forms.RadioButton();
-            this.ProxyProtocolSocks4_RadioButton = new System.Windows.Forms.RadioButton();
-            this.ProxyProtocolSocks5_RadioButton = new System.Windows.Forms.RadioButton();
-            this.ProxyAuth_CheckBox = new System.Windows.Forms.CheckBox();
-            this.ProxyAuthUserName_TextBox = new System.Windows.Forms.TextBox();
-            this.ProxyAuthPassword_TextBox = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.ProxySet_Bottun = new System.Windows.Forms.Button();
             this.ProxyTest_Bottun = new System.Windows.Forms.Button();
-            this.BotStatus_ListBox = new System.Windows.Forms.ListBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.BotStartStop_Botton = new System.Windows.Forms.Button();
+            this.ProxySet_Bottun = new System.Windows.Forms.Button();
+            this.ProxyAuth_GpBox = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.ProxyAuthPassword_TextBox = new System.Windows.Forms.TextBox();
+            this.ProxyAuthUserName_TextBox = new System.Windows.Forms.TextBox();
+            this.ProxyAuth_CheckBox = new System.Windows.Forms.CheckBox();
+            this.ProxyProtocol_GpBox = new System.Windows.Forms.GroupBox();
+            this.ProxyProtocolSocks5_RadioButton = new System.Windows.Forms.RadioButton();
+            this.ProxyProtocolSocks4_RadioButton = new System.Windows.Forms.RadioButton();
+            this.ProxyProtocolHttps_RadioButton = new System.Windows.Forms.RadioButton();
+            this.ProxyServer_GpBox = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.ProxyServerProt_TextBox = new System.Windows.Forms.TextBox();
+            this.ProxyServerAddress_TextBox = new System.Windows.Forms.TextBox();
+            this.UpdateChecker_Timer = new System.Windows.Forms.Timer(this.components);
             this.BotTabControl.SuspendLayout();
             this.BotMainPanel_Tab.SuspendLayout();
             this.BotSetting_Tab.SuspendLayout();
             this.Proxy_GroupBox.SuspendLayout();
-            this.ProxyServer_GpBox.SuspendLayout();
-            this.ProxyProtocol_GpBox.SuspendLayout();
             this.ProxyAuth_GpBox.SuspendLayout();
+            this.ProxyProtocol_GpBox.SuspendLayout();
+            this.ProxyServer_GpBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // BotTabControl
@@ -71,7 +73,7 @@
             this.BotTabControl.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.BotTabControl.RightToLeftLayout = true;
             this.BotTabControl.SelectedIndex = 0;
-            this.BotTabControl.Size = new System.Drawing.Size(614, 360);
+            this.BotTabControl.Size = new System.Drawing.Size(616, 359);
             this.BotTabControl.TabIndex = 0;
             // 
             // BotMainPanel_Tab
@@ -83,10 +85,39 @@
             this.BotMainPanel_Tab.Location = new System.Drawing.Point(4, 22);
             this.BotMainPanel_Tab.Name = "BotMainPanel_Tab";
             this.BotMainPanel_Tab.Padding = new System.Windows.Forms.Padding(3);
-            this.BotMainPanel_Tab.Size = new System.Drawing.Size(606, 334);
+            this.BotMainPanel_Tab.Size = new System.Drawing.Size(608, 333);
             this.BotMainPanel_Tab.TabIndex = 0;
             this.BotMainPanel_Tab.Text = "پنل";
             this.BotMainPanel_Tab.UseVisualStyleBackColor = true;
+            // 
+            // BotStartStop_Botton
+            // 
+            this.BotStartStop_Botton.BackColor = System.Drawing.Color.Orange;
+            this.BotStartStop_Botton.Location = new System.Drawing.Point(8, 294);
+            this.BotStartStop_Botton.Name = "BotStartStop_Botton";
+            this.BotStartStop_Botton.Size = new System.Drawing.Size(590, 35);
+            this.BotStartStop_Botton.TabIndex = 2;
+            this.BotStartStop_Botton.Text = "اتصال";
+            this.BotStartStop_Botton.UseVisualStyleBackColor = false;
+            this.BotStartStop_Botton.Click += new System.EventHandler(this.BotStartStop_Botton_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(527, 5);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(70, 20);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "وضعیت ربات ";
+            // 
+            // BotStatus_ListBox
+            // 
+            this.BotStatus_ListBox.FormattingEnabled = true;
+            this.BotStatus_ListBox.ItemHeight = 20;
+            this.BotStatus_ListBox.Location = new System.Drawing.Point(8, 27);
+            this.BotStatus_ListBox.Name = "BotStatus_ListBox";
+            this.BotStatus_ListBox.Size = new System.Drawing.Size(590, 264);
+            this.BotStatus_ListBox.TabIndex = 0;
             // 
             // BotSetting_Tab
             // 
@@ -114,32 +145,24 @@
             this.Proxy_GroupBox.TabIndex = 0;
             this.Proxy_GroupBox.TabStop = false;
             this.Proxy_GroupBox.Text = "پروکسی";
-            this.Proxy_GroupBox.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // ProxyServer_GpBox
+            // ProxyTest_Bottun
             // 
-            this.ProxyServer_GpBox.Controls.Add(this.label2);
-            this.ProxyServer_GpBox.Controls.Add(this.label1);
-            this.ProxyServer_GpBox.Controls.Add(this.ProxyServerProt_TextBox);
-            this.ProxyServer_GpBox.Controls.Add(this.ProxyServerAddress_TextBox);
-            this.ProxyServer_GpBox.Location = new System.Drawing.Point(6, 27);
-            this.ProxyServer_GpBox.Name = "ProxyServer_GpBox";
-            this.ProxyServer_GpBox.Size = new System.Drawing.Size(578, 80);
-            this.ProxyServer_GpBox.TabIndex = 1;
-            this.ProxyServer_GpBox.TabStop = false;
-            this.ProxyServer_GpBox.Text = "سرور";
+            this.ProxyTest_Bottun.Location = new System.Drawing.Point(6, 282);
+            this.ProxyTest_Bottun.Name = "ProxyTest_Bottun";
+            this.ProxyTest_Bottun.Size = new System.Drawing.Size(135, 30);
+            this.ProxyTest_Bottun.TabIndex = 2;
+            this.ProxyTest_Bottun.Text = "تست پروکسی ";
+            this.ProxyTest_Bottun.UseVisualStyleBackColor = true;
             // 
-            // ProxyProtocol_GpBox
+            // ProxySet_Bottun
             // 
-            this.ProxyProtocol_GpBox.Controls.Add(this.ProxyProtocolSocks5_RadioButton);
-            this.ProxyProtocol_GpBox.Controls.Add(this.ProxyProtocolSocks4_RadioButton);
-            this.ProxyProtocol_GpBox.Controls.Add(this.ProxyProtocolHttps_RadioButton);
-            this.ProxyProtocol_GpBox.Location = new System.Drawing.Point(6, 113);
-            this.ProxyProtocol_GpBox.Name = "ProxyProtocol_GpBox";
-            this.ProxyProtocol_GpBox.Size = new System.Drawing.Size(578, 66);
-            this.ProxyProtocol_GpBox.TabIndex = 1;
-            this.ProxyProtocol_GpBox.TabStop = false;
-            this.ProxyProtocol_GpBox.Text = "پروتکل";
+            this.ProxySet_Bottun.Location = new System.Drawing.Point(147, 282);
+            this.ProxySet_Bottun.Name = "ProxySet_Bottun";
+            this.ProxySet_Bottun.Size = new System.Drawing.Size(437, 30);
+            this.ProxySet_Bottun.TabIndex = 2;
+            this.ProxySet_Bottun.Text = "اعمال پروکسی ";
+            this.ProxySet_Bottun.UseVisualStyleBackColor = true;
             // 
             // ProxyAuth_GpBox
             // 
@@ -154,65 +177,64 @@
             this.ProxyAuth_GpBox.TabIndex = 1;
             this.ProxyAuth_GpBox.TabStop = false;
             this.ProxyAuth_GpBox.Text = "نام کاربری رمز عبور";
-            this.ProxyAuth_GpBox.Enter += new System.EventHandler(this.ProxyAuth_GpBox_Enter);
             // 
-            // ProxyServerAddress_TextBox
+            // label4
             // 
-            this.ProxyServerAddress_TextBox.Location = new System.Drawing.Point(345, 27);
-            this.ProxyServerAddress_TextBox.Name = "ProxyServerAddress_TextBox";
-            this.ProxyServerAddress_TextBox.Size = new System.Drawing.Size(164, 28);
-            this.ProxyServerAddress_TextBox.TabIndex = 0;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(137, 39);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(55, 20);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "کلمه عبور";
             // 
-            // ProxyServerProt_TextBox
+            // label3
             // 
-            this.ProxyServerProt_TextBox.Location = new System.Drawing.Point(201, 27);
-            this.ProxyServerProt_TextBox.Name = "ProxyServerProt_TextBox";
-            this.ProxyServerProt_TextBox.Size = new System.Drawing.Size(71, 28);
-            this.ProxyServerProt_TextBox.TabIndex = 0;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(325, 37);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(55, 20);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "نام کاربری";
             // 
-            // label1
+            // ProxyAuthPassword_TextBox
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(509, 30);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 20);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "آدرس : ";
+            this.ProxyAuthPassword_TextBox.Enabled = false;
+            this.ProxyAuthPassword_TextBox.Location = new System.Drawing.Point(31, 36);
+            this.ProxyAuthPassword_TextBox.Name = "ProxyAuthPassword_TextBox";
+            this.ProxyAuthPassword_TextBox.Size = new System.Drawing.Size(100, 28);
+            this.ProxyAuthPassword_TextBox.TabIndex = 1;
             // 
-            // label2
+            // ProxyAuthUserName_TextBox
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(273, 30);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 20);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "پورت : ";
+            this.ProxyAuthUserName_TextBox.Enabled = false;
+            this.ProxyAuthUserName_TextBox.Location = new System.Drawing.Point(219, 34);
+            this.ProxyAuthUserName_TextBox.Name = "ProxyAuthUserName_TextBox";
+            this.ProxyAuthUserName_TextBox.Size = new System.Drawing.Size(100, 28);
+            this.ProxyAuthUserName_TextBox.TabIndex = 1;
             // 
-            // ProxyProtocolHttps_RadioButton
+            // ProxyAuth_CheckBox
             // 
-            this.ProxyProtocolHttps_RadioButton.AutoSize = true;
-            this.ProxyProtocolHttps_RadioButton.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.ProxyProtocolHttps_RadioButton.Location = new System.Drawing.Point(244, 27);
-            this.ProxyProtocolHttps_RadioButton.Name = "ProxyProtocolHttps_RadioButton";
-            this.ProxyProtocolHttps_RadioButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.ProxyProtocolHttps_RadioButton.Size = new System.Drawing.Size(67, 20);
-            this.ProxyProtocolHttps_RadioButton.TabIndex = 0;
-            this.ProxyProtocolHttps_RadioButton.TabStop = true;
-            this.ProxyProtocolHttps_RadioButton.Text = "HTTPS";
-            this.ProxyProtocolHttps_RadioButton.UseVisualStyleBackColor = true;
+            this.ProxyAuth_CheckBox.AutoSize = true;
+            this.ProxyAuth_CheckBox.Location = new System.Drawing.Point(447, 36);
+            this.ProxyAuth_CheckBox.Name = "ProxyAuth_CheckBox";
+            this.ProxyAuth_CheckBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ProxyAuth_CheckBox.Size = new System.Drawing.Size(81, 24);
+            this.ProxyAuth_CheckBox.TabIndex = 0;
+            this.ProxyAuth_CheckBox.Text = "فعال سازی ";
+            this.ProxyAuth_CheckBox.UseVisualStyleBackColor = true;
+            this.ProxyAuth_CheckBox.CheckedChanged += new System.EventHandler(this.ProxyAuth_CheckBox_CheckedChanged);
             // 
-            // ProxyProtocolSocks4_RadioButton
+            // ProxyProtocol_GpBox
             // 
-            this.ProxyProtocolSocks4_RadioButton.AutoSize = true;
-            this.ProxyProtocolSocks4_RadioButton.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
-            this.ProxyProtocolSocks4_RadioButton.Location = new System.Drawing.Point(335, 27);
-            this.ProxyProtocolSocks4_RadioButton.Name = "ProxyProtocolSocks4_RadioButton";
-            this.ProxyProtocolSocks4_RadioButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.ProxyProtocolSocks4_RadioButton.Size = new System.Drawing.Size(92, 20);
-            this.ProxyProtocolSocks4_RadioButton.TabIndex = 0;
-            this.ProxyProtocolSocks4_RadioButton.TabStop = true;
-            this.ProxyProtocolSocks4_RadioButton.Text = "SOCKS V4";
-            this.ProxyProtocolSocks4_RadioButton.UseVisualStyleBackColor = true;
+            this.ProxyProtocol_GpBox.Controls.Add(this.ProxyProtocolSocks5_RadioButton);
+            this.ProxyProtocol_GpBox.Controls.Add(this.ProxyProtocolSocks4_RadioButton);
+            this.ProxyProtocol_GpBox.Controls.Add(this.ProxyProtocolHttps_RadioButton);
+            this.ProxyProtocol_GpBox.Location = new System.Drawing.Point(6, 113);
+            this.ProxyProtocol_GpBox.Name = "ProxyProtocol_GpBox";
+            this.ProxyProtocol_GpBox.Size = new System.Drawing.Size(578, 66);
+            this.ProxyProtocol_GpBox.TabIndex = 1;
+            this.ProxyProtocol_GpBox.TabStop = false;
+            this.ProxyProtocol_GpBox.Text = "پروتکل";
             // 
             // ProxyProtocolSocks5_RadioButton
             // 
@@ -227,119 +249,102 @@
             this.ProxyProtocolSocks5_RadioButton.Text = "SOCKS V5";
             this.ProxyProtocolSocks5_RadioButton.UseVisualStyleBackColor = true;
             // 
-            // ProxyAuth_CheckBox
+            // ProxyProtocolSocks4_RadioButton
             // 
-            this.ProxyAuth_CheckBox.AutoSize = true;
-            this.ProxyAuth_CheckBox.Location = new System.Drawing.Point(447, 36);
-            this.ProxyAuth_CheckBox.Name = "ProxyAuth_CheckBox";
-            this.ProxyAuth_CheckBox.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.ProxyAuth_CheckBox.Size = new System.Drawing.Size(81, 24);
-            this.ProxyAuth_CheckBox.TabIndex = 0;
-            this.ProxyAuth_CheckBox.Text = "فعال سازی ";
-            this.ProxyAuth_CheckBox.UseVisualStyleBackColor = true;
-            this.ProxyAuth_CheckBox.CheckedChanged += new System.EventHandler(this.ProxyAuth_CheckBox_CheckedChanged);
+            this.ProxyProtocolSocks4_RadioButton.AutoSize = true;
+            this.ProxyProtocolSocks4_RadioButton.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.ProxyProtocolSocks4_RadioButton.Location = new System.Drawing.Point(335, 27);
+            this.ProxyProtocolSocks4_RadioButton.Name = "ProxyProtocolSocks4_RadioButton";
+            this.ProxyProtocolSocks4_RadioButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ProxyProtocolSocks4_RadioButton.Size = new System.Drawing.Size(92, 20);
+            this.ProxyProtocolSocks4_RadioButton.TabIndex = 0;
+            this.ProxyProtocolSocks4_RadioButton.TabStop = true;
+            this.ProxyProtocolSocks4_RadioButton.Text = "SOCKS V4";
+            this.ProxyProtocolSocks4_RadioButton.UseVisualStyleBackColor = true;
             // 
-            // ProxyAuthUserName_TextBox
+            // ProxyProtocolHttps_RadioButton
             // 
-            this.ProxyAuthUserName_TextBox.Enabled = false;
-            this.ProxyAuthUserName_TextBox.Location = new System.Drawing.Point(219, 34);
-            this.ProxyAuthUserName_TextBox.Name = "ProxyAuthUserName_TextBox";
-            this.ProxyAuthUserName_TextBox.Size = new System.Drawing.Size(100, 28);
-            this.ProxyAuthUserName_TextBox.TabIndex = 1;
+            this.ProxyProtocolHttps_RadioButton.AutoSize = true;
+            this.ProxyProtocolHttps_RadioButton.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(178)));
+            this.ProxyProtocolHttps_RadioButton.Location = new System.Drawing.Point(244, 27);
+            this.ProxyProtocolHttps_RadioButton.Name = "ProxyProtocolHttps_RadioButton";
+            this.ProxyProtocolHttps_RadioButton.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ProxyProtocolHttps_RadioButton.Size = new System.Drawing.Size(67, 20);
+            this.ProxyProtocolHttps_RadioButton.TabIndex = 0;
+            this.ProxyProtocolHttps_RadioButton.TabStop = true;
+            this.ProxyProtocolHttps_RadioButton.Text = "HTTPS";
+            this.ProxyProtocolHttps_RadioButton.UseVisualStyleBackColor = true;
             // 
-            // ProxyAuthPassword_TextBox
+            // ProxyServer_GpBox
             // 
-            this.ProxyAuthPassword_TextBox.Enabled = false;
-            this.ProxyAuthPassword_TextBox.Location = new System.Drawing.Point(31, 36);
-            this.ProxyAuthPassword_TextBox.Name = "ProxyAuthPassword_TextBox";
-            this.ProxyAuthPassword_TextBox.Size = new System.Drawing.Size(100, 28);
-            this.ProxyAuthPassword_TextBox.TabIndex = 1;
+            this.ProxyServer_GpBox.Controls.Add(this.label2);
+            this.ProxyServer_GpBox.Controls.Add(this.label1);
+            this.ProxyServer_GpBox.Controls.Add(this.ProxyServerProt_TextBox);
+            this.ProxyServer_GpBox.Controls.Add(this.ProxyServerAddress_TextBox);
+            this.ProxyServer_GpBox.Location = new System.Drawing.Point(6, 27);
+            this.ProxyServer_GpBox.Name = "ProxyServer_GpBox";
+            this.ProxyServer_GpBox.Size = new System.Drawing.Size(578, 80);
+            this.ProxyServer_GpBox.TabIndex = 1;
+            this.ProxyServer_GpBox.TabStop = false;
+            this.ProxyServer_GpBox.Text = "سرور";
             // 
-            // label3
+            // label2
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(325, 37);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(55, 20);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "نام کاربری";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(273, 30);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(42, 20);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "پورت : ";
             // 
-            // label4
+            // label1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(137, 39);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(55, 20);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "کلمه عبور";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(509, 30);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(45, 20);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "آدرس : ";
             // 
-            // ProxySet_Bottun
+            // ProxyServerProt_TextBox
             // 
-            this.ProxySet_Bottun.Location = new System.Drawing.Point(147, 282);
-            this.ProxySet_Bottun.Name = "ProxySet_Bottun";
-            this.ProxySet_Bottun.Size = new System.Drawing.Size(437, 30);
-            this.ProxySet_Bottun.TabIndex = 2;
-            this.ProxySet_Bottun.Text = "اعمال پروکسی ";
-            this.ProxySet_Bottun.UseVisualStyleBackColor = true;
-            this.ProxySet_Bottun.Click += new System.EventHandler(this.ProxySet_Bottun_Click);
+            this.ProxyServerProt_TextBox.Location = new System.Drawing.Point(201, 27);
+            this.ProxyServerProt_TextBox.Name = "ProxyServerProt_TextBox";
+            this.ProxyServerProt_TextBox.Size = new System.Drawing.Size(71, 28);
+            this.ProxyServerProt_TextBox.TabIndex = 0;
             // 
-            // ProxyTest_Bottun
+            // ProxyServerAddress_TextBox
             // 
-            this.ProxyTest_Bottun.Location = new System.Drawing.Point(6, 282);
-            this.ProxyTest_Bottun.Name = "ProxyTest_Bottun";
-            this.ProxyTest_Bottun.Size = new System.Drawing.Size(135, 30);
-            this.ProxyTest_Bottun.TabIndex = 2;
-            this.ProxyTest_Bottun.Text = "تست پروکسی ";
-            this.ProxyTest_Bottun.UseVisualStyleBackColor = true;
+            this.ProxyServerAddress_TextBox.Location = new System.Drawing.Point(345, 27);
+            this.ProxyServerAddress_TextBox.Name = "ProxyServerAddress_TextBox";
+            this.ProxyServerAddress_TextBox.Size = new System.Drawing.Size(164, 28);
+            this.ProxyServerAddress_TextBox.TabIndex = 0;
             // 
-            // BotStatus_ListBox
+            // UpdateChecker_Timer
             // 
-            this.BotStatus_ListBox.FormattingEnabled = true;
-            this.BotStatus_ListBox.ItemHeight = 20;
-            this.BotStatus_ListBox.Location = new System.Drawing.Point(8, 27);
-            this.BotStatus_ListBox.Name = "BotStatus_ListBox";
-            this.BotStatus_ListBox.Size = new System.Drawing.Size(590, 264);
-            this.BotStatus_ListBox.TabIndex = 0;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(527, 5);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(70, 20);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "وضعیت ربات ";
-            // 
-            // BotStartStop_Botton
-            // 
-            this.BotStartStop_Botton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.BotStartStop_Botton.Location = new System.Drawing.Point(8, 294);
-            this.BotStartStop_Botton.Name = "BotStartStop_Botton";
-            this.BotStartStop_Botton.Size = new System.Drawing.Size(590, 35);
-            this.BotStartStop_Botton.TabIndex = 2;
-            this.BotStartStop_Botton.Text = "اتصال";
-            this.BotStartStop_Botton.UseVisualStyleBackColor = false;
-            this.BotStartStop_Botton.Click += new System.EventHandler(this.button1_Click);
+            this.UpdateChecker_Timer.Interval = 500;
+            this.UpdateChecker_Timer.Tick += new System.EventHandler(this.UpdateChecker_Timer_Tick);
             // 
             // TelegramBotPanel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(614, 360);
+            this.ClientSize = new System.Drawing.Size(616, 359);
             this.Controls.Add(this.BotTabControl);
             this.Name = "TelegramBotPanel";
             this.Text = "پنل ربات رادشید";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TelegramBotPanel_FormClosing);
             this.BotTabControl.ResumeLayout(false);
             this.BotMainPanel_Tab.ResumeLayout(false);
             this.BotMainPanel_Tab.PerformLayout();
             this.BotSetting_Tab.ResumeLayout(false);
             this.Proxy_GroupBox.ResumeLayout(false);
-            this.ProxyServer_GpBox.ResumeLayout(false);
-            this.ProxyServer_GpBox.PerformLayout();
-            this.ProxyProtocol_GpBox.ResumeLayout(false);
-            this.ProxyProtocol_GpBox.PerformLayout();
             this.ProxyAuth_GpBox.ResumeLayout(false);
             this.ProxyAuth_GpBox.PerformLayout();
+            this.ProxyProtocol_GpBox.ResumeLayout(false);
+            this.ProxyProtocol_GpBox.PerformLayout();
+            this.ProxyServer_GpBox.ResumeLayout(false);
+            this.ProxyServer_GpBox.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -370,5 +375,6 @@
         private System.Windows.Forms.Button BotStartStop_Botton;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ListBox BotStatus_ListBox;
+        private System.Windows.Forms.Timer UpdateChecker_Timer;
     }
 }

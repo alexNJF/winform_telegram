@@ -1,0 +1,92 @@
+ERROR: 	6/18/2020   11:56:12 AM   Unable to connect to the remote server
+ERROR: 	6/18/2020   11:54:50 AM   Unable to connect to the remote server
+ERROR: 	6/18/2020   11:58:02 AM   Unable to connect to the remote server
+6/18/2020   12:02:44 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:02:44 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:02:44 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+ERROR: 	6/18/2020   12:01:42 PM   Unable to connect to the remote server
+6/18/2020   12:00:54 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:00:53 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:00:50 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:00:33 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:00:33 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:00:33 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:00:33 PM    USER: Ali ( @Sol_Di0 )   مدمذنذ
+6/18/2020   12:11:00 PM    USER: Ali ( @Sol_Di0 )   اوی
+6/18/2020   12:10:55 PM    USER: Ali ( @Sol_Di0 )   که که سگ
+6/18/2020   12:10:44 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:10:44 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:10:44 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:10:44 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:10:42 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:10:39 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:10:39 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:10:39 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:10:38 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:10:35 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:10:35 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:10:35 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:10:35 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:10:34 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:10:26 PM    USER: Ali ( @Sol_Di0 )   کفتر کاکل به سر
+6/18/2020   12:08:52 PM    USER: Ali ( @Sol_Di0 )   اویی
+6/18/2020   12:08:52 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:08:52 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:08:52 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+ERROR: 	6/18/2020   12:07:50 PM   The remote name could not be resolved: 'api.telegram.org'
+ERROR: 	6/18/2020   12:06:37 PM   Unable to connect to the remote server
+ERROR: 	6/18/2020   12:05:15 PM   Unable to connect to the remote server
+6/18/2020   12:04:26 PM    USER: Ali ( @Sol_Di0 )   رپر
+6/18/2020   12:04:24 PM    USER: Ali ( @Sol_Di0 )   نبنر
+6/18/2020   12:04:22 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:04:20 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:04:18 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:36:04 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:36:04 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:36:04 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:36:04 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:36:04 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:36:04 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:36:04 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:36:04 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+ERROR: 	6/18/2020   12:34:48 PM   Unable to connect to the remote server
+ERROR: 	6/18/2020   12:33:26 PM   Unable to connect to the remote server
+ERROR: 	6/18/2020   12:32:04 PM   Unable to connect to the remote server
+6/18/2020   12:31:09 PM    USER: Ali ( @Sol_Di0 )   عی
+ERROR: 	6/18/2020   12:29:54 PM   Unable to connect to the remote server
+6/18/2020   12:28:47 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:28:45 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:28:44 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:27:44 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:27:44 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:27:44 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:27:44 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:27:44 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+ERROR: 	6/18/2020   12:26:42 PM   Unable to connect to the remote server
+ERROR: 	6/18/2020   12:25:20 PM   Unable to connect to the remote server
+ERROR: 	6/18/2020   12:23:58 PM   Unable to connect to the remote server
+6/18/2020   12:23:09 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:23:02 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:22:53 PM    USER: Ali ( @Sol_Di0 )   /start
+6/18/2020   12:42:00 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:42:00 PM    USER: Ali ( @Sol_Di0 )   اوییی
+6/18/2020   12:42:00 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:42:00 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+ERROR: 	6/18/2020   12:41:12 PM   Unable to connect to the remote server
+6/18/2020   12:40:25 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:40:22 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+6/18/2020   12:40:20 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+ERROR: 	6/18/2020   12:44:18 PM   Unable to connect to the remote server
+ERROR: 	6/18/2020   1:06:09 PM   Unable to connect to the remote server
+ERROR: 	6/18/2020   1:05:18 PM   Unable to connect to the remote server
+ERROR: 	6/18/2020   1:04:10 PM   Unable to connect to the remote server
+ERROR: 	6/18/2020   1:03:43 PM   Unable to connect to the remote server
+6/18/2020   12:57:10 PM    USER: Ali ( @Sol_Di0 )   درباره ما
+6/18/2020   12:57:05 PM    USER: Ali ( @Sol_Di0 )   نمایش محصولات
+ERROR: 	6/18/2020   12:56:20 PM   Unable to connect to the remote server
+ERROR: 	6/18/2020   12:54:58 PM   Unable to connect to the remote server
+ERROR: 	6/18/2020   12:54:31 PM   Unable to connect to the remote server
+ERROR: 	6/18/2020   12:53:24 PM   Unable to connect to the remote server
+6/23/2020   10:09:32 AM    USER: Ali ( @Sol_Di0 )   sdfsdf
+6/23/2020   10:09:31 AM    USER: Ali ( @Sol_Di0 )   sdflkujsdf
+6/23/2020   10:09:30 AM    USER: Ali ( @Sol_Di0 )   j,hsdf

@@ -33,15 +33,6 @@ namespace TelegramBot
            
         }
 
-
-        //welcome Massage and menue 
-        /*
-         *basa template api is 
-         * .../sendmassge?chatid=[int or chanel id ]&text=[your text]&parse_mode=[italic/bold]&disable_notification=[true/false]$reply_to_message_id=[int]&reply_markup=[json of your keyboard]
-         */
-
-        
-
         public void Decision(string ans, int chatid)
         {
             switch (ans)
@@ -59,6 +50,7 @@ namespace TelegramBot
                     break;
             }
         }
+
         #region ResponseFuctions
         public void show_menu(int chatid)
         {
@@ -91,24 +83,28 @@ namespace TelegramBot
 
         public void show_product(int chat_id)
         {
-            string message = "محصول یک  ";
-            string Chatid = chat_id.ToString();
-            string url = String.Format(this.BaseUrl + "sendMessage?text={0}&chat_id={1}", message, Chatid);
-            create_requst(url);
-            //---------------------------
-            message = "محصول دو  ";
-            Chatid = chat_id.ToString();
-            url = String.Format(this.BaseUrl + "sendMessage?text={0}&chat_id={1}", message, Chatid);
-            create_requst(url);
-            //---------------------------
-            message = "محصول سه  ";
-            Chatid = chat_id.ToString();
-            url = String.Format(this.BaseUrl + "sendMessage?text={0}&chat_id={1}", message, Chatid);
-            create_requst(url);
+            if (Product_list.list.Count > 0)
+            {
+                foreach (Product _product in Product_list.list)
+                {
+                    string message = _product.name;
+                    string Chatid = chat_id.ToString();
+                    string url = String.Format(this.BaseUrl + "sendMessage?text={0}&chat_id={1}", message, Chatid);
+                    create_requst(url);
+                }
+            }
+            else
+            {
+                string message = "محصولی در دسترس نیست";
+                string Chatid = chat_id.ToString();
+                string url = String.Format(this.BaseUrl + "sendMessage?text={0}&chat_id={1}", message, Chatid);
+                create_requst(url);
+            }
         }
+
         public void AboutUS(int chat_id)
         {
-            string message = "تولید شده توسط شرکت راشید ";
+            string message = "تولید شده توسط علی در شرکت راشید ";
             string Chatid = chat_id.ToString();
             string url = String.Format(this.BaseUrl + "sendMessage?text={0}&chat_id={1}", message, Chatid);
             create_requst(url);
@@ -144,6 +140,7 @@ namespace TelegramBot
             string index = File.ReadAllText("index");
             return index;
         }
+
         public void responce(T_result t_Result)
         {
             foreach (var item in t_Result.result)
